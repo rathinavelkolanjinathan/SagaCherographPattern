@@ -55,13 +55,13 @@
             <optional>true</optional>
         </dependency>
 
+
         <dependency>
-            <groupId>com.saga.api</groupId>
-            <artifactId>common-dtos</artifactId>
+            <groupId>org.saga.api</groupId>
+            <artifactId>commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-
+            <scope>compile</scope>
         </dependency>
-
 
 
     </dependencies>
