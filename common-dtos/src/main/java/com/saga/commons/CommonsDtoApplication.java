@@ -1,4 +1,4 @@
-package com.javatechie.saga.commons;
+package com.saga.commons;
 
 public class CommonsDtoApplication {
 

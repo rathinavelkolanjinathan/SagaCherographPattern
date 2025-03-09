@@ -1,6 +1,6 @@
-package com.javatechie.saga.commons.event;
+package com.saga.commons.events;
 
-import com.javatechie.saga.commons.dto.PaymentRequestDto;
+import com.saga.commons.dto.PaymentRequestDto;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

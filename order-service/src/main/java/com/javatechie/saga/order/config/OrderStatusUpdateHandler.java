@@ -1,11 +1,12 @@
 package com.javatechie.saga.order.config;
 
-import com.javatechie.saga.commons.dto.OrderRequestDto;
-import com.javatechie.saga.commons.event.OrderStatus;
-import com.javatechie.saga.commons.event.PaymentStatus;
+import com.saga.commons.dto.OrderRequestDto;
+import com.saga.commons.events.OrderStatus;
+import com.saga.commons.events.PaymentStatus;
 import com.javatechie.saga.order.entity.PurchaseOrder;
 import com.javatechie.saga.order.repository.OrderRepository;
 import com.javatechie.saga.order.service.OrderStatusPublisher;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.Transactional;

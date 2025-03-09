@@ -1,4 +1,4 @@
-package com.javatechie.saga.commons.event;
+package com.saga.commons.events;
 
 import java.util.Date;
 import java.util.UUID;

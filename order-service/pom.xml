@@ -4,12 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>saga-choreography-pattern</artifactId>
-        <groupId>com.javatechie</groupId>
+        <groupId>com.saga.api</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>order-service</artifactId>
 
     <dependencies>
@@ -50,12 +48,13 @@
             <optional>true</optional>
         </dependency>
 
+
         <dependency>
-            <groupId>com.javatechie</groupId>
+            <groupId>com.saga.api</groupId>
             <artifactId>common-dtos</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
-
 </project>

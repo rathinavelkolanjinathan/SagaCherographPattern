@@ -1,12 +1,13 @@
 package com.javatechie.saga.order.entity;
 
-import com.javatechie.saga.commons.event.OrderStatus;
-import com.javatechie.saga.commons.event.PaymentStatus;
+
+import com.saga.commons.events.OrderStatus;
+import com.saga.commons.events.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "PURCHASE_ORDER_TBL")

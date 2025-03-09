@@ -1,8 +1,8 @@
 package com.javatechie.saga.payment.config;
 
-import com.javatechie.saga.commons.event.OrderEvent;
-import com.javatechie.saga.commons.event.OrderStatus;
-import com.javatechie.saga.commons.event.PaymentEvent;
+import com.saga.commons.events.OrderEvent;
+import com.saga.commons.events.OrderStatus;
+import com.saga.commons.events.PaymentEvent;
 import com.javatechie.saga.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

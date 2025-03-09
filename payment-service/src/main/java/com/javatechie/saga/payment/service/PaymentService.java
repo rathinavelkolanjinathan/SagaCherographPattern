@@ -1,10 +1,10 @@
 package com.javatechie.saga.payment.service;
 
-import com.javatechie.saga.commons.dto.OrderRequestDto;
-import com.javatechie.saga.commons.dto.PaymentRequestDto;
-import com.javatechie.saga.commons.event.OrderEvent;
-import com.javatechie.saga.commons.event.PaymentEvent;
-import com.javatechie.saga.commons.event.PaymentStatus;
+import com.saga.commons.dto.OrderRequestDto;
+import com.saga.commons.dto.PaymentRequestDto;
+import com.saga.commons.events.OrderEvent;
+import com.saga.commons.events.PaymentEvent;
+import com.saga.commons.events.PaymentStatus;
 import com.javatechie.saga.payment.entity.UserBalance;
 import com.javatechie.saga.payment.entity.UserTransaction;
 import com.javatechie.saga.payment.repository.UserBalanceRepository;

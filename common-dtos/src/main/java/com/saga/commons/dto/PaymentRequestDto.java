@@ -1,4 +1,4 @@
-package com.javatechie.saga.commons.dto;
+package com.saga.commons.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,8 +1,8 @@
 package com.javatechie.saga.order.service;
 
-import com.javatechie.saga.commons.dto.OrderRequestDto;
-import com.javatechie.saga.commons.event.OrderEvent;
-import com.javatechie.saga.commons.event.OrderStatus;
+import com.saga.commons.dto.OrderRequestDto;
+import com.saga.commons.events.OrderEvent;
+import com.saga.commons.events.OrderStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Sinks;
