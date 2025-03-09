@@ -1,9 +1,0 @@
-com\saga\commons\CommonsDtoApplication.class
-com\saga\commons\events\OrderStatus.class
-com\saga\commons\events\PaymentStatus.class
-com\saga\commons\dto\PaymentRequestDto.class
-com\saga\commons\events\PaymentEvent.class
-com\saga\commons\events\Event.class
-com\saga\commons\dto\OrderRequestDto.class
-com\saga\commons\dto\OrderResponseDto.class
-com\saga\commons\events\OrderEvent.class
