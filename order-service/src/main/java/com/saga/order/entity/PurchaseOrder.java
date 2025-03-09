@@ -21,7 +21,7 @@ public class PurchaseOrder {
     private Integer userId;
     private Integer productId;
     private Integer price;
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING)   // stored in the database as enum
     private OrderStatus orderStatus;
     @Enumerated(EnumType.STRING)
     private PaymentStatus paymentStatus;

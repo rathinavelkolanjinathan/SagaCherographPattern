@@ -1,0 +1,11 @@
+in - means consumer
+out - means producer
+
+
+Testing Steps
+--------------------
+1.Start the zookeeper server
+2.Start the kafka server
+3.configure the cluster details  with offset
+4.start the orderservice server
+5.Start the paymentservice server

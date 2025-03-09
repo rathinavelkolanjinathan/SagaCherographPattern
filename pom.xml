@@ -17,8 +17,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>payment-service</module>
         <module>commons</module>
+        <module>payment-service</module>
         <module>order-service</module>
     </modules>
 

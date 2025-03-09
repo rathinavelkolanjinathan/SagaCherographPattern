@@ -4,10 +4,10 @@ spring:
       function:
         definition : paymentProcessor
       bindings:
-        paymentProcessor-in-0 :
-          destination: order-event
-        paymentProcessor-out-0:
-          destination: payment-event
+        paymentProcessor-in-0 :   # in means consumer
+          destination: order-event #Topic name
+        paymentProcessor-out-0:    # ont -> means publish
+          destination: payment-event  # Topic name
 
 
 server:
